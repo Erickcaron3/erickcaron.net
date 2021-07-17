@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ErickCaron.net</title>
+    <link type="text/css" rel="stylesheet" href="./css/contact.css">
+    <script type="text/javascript" src="./js/contact.js" defer></script>
+</head>
+<body>
+
+    
+    <header>
+        <div class="headerLeft">
+            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+        </div>
+
+        <div class="headerRight">
+
+            <div class="clock"></div>
+
+            <div class="language">
+                <form action="">
+                    <select name="EN">
+                        <option value="EN">English version (English)</option>
+                        <option value="PL">Wersja Polska (Polish)</option>
+                        <option value="FR">Version française (French)</option>
+                    </select>
+                </form>
+            </div>
+
+        </div>
+        
+        
+    </header>
+
+    <nav class= "menu">
+        <span class="menu-elements"><a href="index.html">Welcome page</a></span>
+        <span class="menu-elements"><a href="presentation.html">Presentation</a></span>
+        <span class="menu-elements"><a href="portfolio.html">Portfolio</a></span>
+        <span class="menu-elements"><a href="contact.html">Contact</a></span>
+    </nav>
+
+    <main>
+        <p>Thank you for your wish to contact me, please make sure that any of your message will be answer ASAP!<br> Feel free to use the form bellow or send by yourself any e-mail in my mailbox: xx@xx.xx
+        </p>
+        <!-- TODO - vérification des input avant validation!-->
+        <form method="POST">
+            
+            <label for="firstName">First name</label>
+            <input type="text" id="firstName"/>
+            
+
+            <label for="name">Name</label>
+            <input type="text" id="name"/>
+           
+
+            <label for="email">E-mail address</label>
+            <input type="email" id="email"/>
+            
+            
+            <label for="phoneNumber">Phone number</label>
+            <input type="tel" id="phoneNumber"/>      
+            
+
+            <label for="message">Message</label>
+            <textarea id="message"></textarea>
+            
+
+            <input class="submit" type="submit" value="Send">
+        </form>
+    </main>
+
+    <footer>
+            2021 - &copy; ErickCaron.net
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,145 @@
+body{
+
+    background-image:url("../img/contact.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+    display: flex;
+    flex-direction: column;
+    font-family: varela, sans-serif;
+    margin: 0;
+    padding:0;
+    
+}
+header{
+    background-color: rgba(255,255,255, 0.9);
+    height: 100px;
+    border-bottom: 1px black solid;
+    order: 1;
+    color: black;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    
+}
+
+.headerLeft{
+    order: 1;
+}
+
+h1{
+    margin: 10px;
+    font-size: 1.2em;
+}
+
+.headerRight{
+    order: 2;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+}
+
+.language{
+    order: 2;
+    position: 3;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.clock{
+    order: 1;
+    margin: 10px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+
+.menu {
+    order: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: black;
+    background-color:rgba(255,255,255,0.7);
+    border-bottom: 1px black solid;
+}
+
+.menu-elements{
+    margin: 5px;
+}
+.menu-elements a, a:link, a:visited {
+    margin: inherit;
+    color: inherit;
+    text-decoration: inherit;
+
+}
+main {
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    margin-left: 100px;
+    margin-right: 100px;
+    order: 3;
+
+    background-color:rgba(255,255,255,0.8);
+    border-radius: 15px;
+    border: 1px black dashed;
+}
+
+main p {
+    margin: 20px;
+    color: black;
+    text-align: center;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+form input{
+    margin: 5px;
+    border: 1px solid #717aa4;
+    border-radius: 10px;
+}
+
+.input-incorrect{
+    margin: 5px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+
+textarea{
+    height: 10em;
+    border-radius: 10px;
+}
+
+
+footer{
+    background-color:rgba(255,255,255, 0.9);
+    width: auto;
+    height: auto;
+    order: 4;
+    border-top: 1px black solid;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    color: black;
+ }
+
+
+
+ @font-face{
+     font-family: varela;
+     src: url("../src/varela.ttf");
+ }

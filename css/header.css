@@ -1,0 +1,35 @@
+header{
+    
+    background-color: rgba(255,255,255, 0.9);
+    height: 50px;
+    border-bottom: 1px black solid;
+    order: 1;
+    color: black;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.header-left{
+    order: 1;
+}
+
+h1{
+    margin: 10px;
+    font-size: 1.2em;
+}
+
+.language{
+    position: 3;
+    margin: 10px;
+
+}
+
+.clock{
+    order: 2;
+    margin: 10px;
+    font-size: 1.2em;
+}
+
